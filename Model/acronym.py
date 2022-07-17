@@ -10,4 +10,4 @@ class Acronym:
         for i in range(0, length):
             abb += acronym[i][0].upper()
 
-        print(abb)
+        return abb
